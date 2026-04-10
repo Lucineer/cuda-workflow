@@ -1,0 +1,8 @@
+[package]
+name = "cuda-workflow"
+version = "0.1.0"
+edition = "2021"
+description = "Workflow engine — DAG-based task graphs, parallel execution, branching, and pipeline orchestration for agent processes"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
